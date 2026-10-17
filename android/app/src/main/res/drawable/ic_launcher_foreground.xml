@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <path android:fillColor="#111326" android:pathData="M54,20 L82,84 L67,84 L61,69 L47,69 L41,84 L26,84 Z M54,43 L48,59 L60,59 Z"/>
-</vector>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:insetLeft="6dp"
+        android:insetTop="6dp"
+        android:insetRight="6dp"
+        android:insetBottom="6dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#6EE7FF"
+                android:endColor="#9A8CFF" />
+        </shape>
+    </item>
+    <item>
+        <drawable android:drawable="@drawable/ic_launcher_mark" />
+    </item>
+</layer-list>
