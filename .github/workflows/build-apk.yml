@@ -8,7 +8,7 @@ on:
       - '.github/workflows/build-apk.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -31,10 +31,19 @@ jobs:
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
       - name: Build debug APK
         run: gradle --no-daemon -p android assembleDebug
-      - name: Upload APK
+      - name: Prepare APK for download
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk Aev0rnJP-Roulette.apk
+      - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: Aev0rnJP-Roulette-APK
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: Aev0rnJP-Roulette.apk
           if-no-files-found: error
           retention-days: 30
+      - name: Publish APK release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-build-${{ github.run_number }}
+          name: Aev0rnJP Roulette APK ${{ github.run_number }}
+          make_latest: true
+          files: Aev0rnJP-Roulette.apk
