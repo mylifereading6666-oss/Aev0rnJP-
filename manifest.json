@@ -1,0 +1,10 @@
+{
+  "name": "Aev0rnJP Roulette",
+  "short_name": "Roulette",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#10111b",
+  "theme_color": "#10111b",
+  "description": "オフライン対応ルーレット",
+  "icons": []
+}
