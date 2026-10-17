@@ -3,8 +3,15 @@
   "short_name": "Roulette",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#10111b",
-  "theme_color": "#10111b",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
   "description": "オフライン対応ルーレット",
-  "icons": []
+  "icons": [
+    {
+      "src": "./app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
