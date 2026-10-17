@@ -12,11 +12,11 @@
 
 **[ここを押してAPKをダウンロード](https://github.com/mylifereading6666-oss/Aev0rnJP-/releases/latest/download/Aev0rnJP-Roulette.apk)**
 
-Android端末で上のリンクを押すと、公開済みの最新APKのダウンロードが始まります。Google PlayではなくGitHubから配布しています。初回は、ビルドが成功してAPKがGitHub Releasesに公開された後に利用できます。
+Android端末で上のリンクを押すと、公開済みの最新APKをダウンロードできます。**APKのビルドとGitHub Releasesへの公開を確認済みです。** Google PlayではなくGitHubから配布しています。
 
 インストール時に許可を求められた場合は、ダウンロード元アプリからのインストールをAndroidの設定で許可してください。アプリはウェブ版を表示するため、利用にはインターネット接続が必要です。
 
-**ダウンロードできない場合：** まだAPKがリリースされていないか、最新ビルドが失敗している可能性があります。ビルド状況は [GitHub Actions](https://github.com/mylifereading6666-oss/Aev0rnJP-/actions) で確認できます。
+**ダウンロードできない場合：** [公開済みリリース一覧](https://github.com/mylifereading6666-oss/Aev0rnJP-/releases) または [GitHub Actionsのビルド状況](https://github.com/mylifereading6666-oss/Aev0rnJP-/actions) を確認してください。
 
 ## 基本的な使い方
 
