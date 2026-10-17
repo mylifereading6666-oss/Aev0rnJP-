@@ -13,7 +13,5 @@
                 android:endColor="#9A8CFF" />
         </shape>
     </item>
-    <item>
-        <drawable android:drawable="@drawable/ic_launcher_mark" />
-    </item>
+    <item android:drawable="@drawable/ic_launcher_mark" />
 </layer-list>
